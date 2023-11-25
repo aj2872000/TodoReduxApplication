@@ -1,0 +1,5 @@
+/* src/App.css */
+.completed {
+  text-decoration: line-through; /* Add line-through style for completed items */
+  color: gray; /* Change the color for completed items */
+}
