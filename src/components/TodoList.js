@@ -7,7 +7,7 @@ import { Creators as TodoActions } from "../actions/todos";
 const TodoList = () => {
   const todos = useSelector((state) => state.todos.todos);
   const dispatch = useDispatch();
-
+console.log(todos)
   return (
     <ul>
       {todos.map((todo) => (
