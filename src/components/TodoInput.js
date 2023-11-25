@@ -15,6 +15,8 @@ const TodoInput = () => {
     }
   };
 
+  console.log(text)
+
   return (
     <div>
       <input type="text" value={text} onChange={e => setText(e.target.value)} />
