@@ -17,6 +17,7 @@ const TodoInput = () => {
 
   console.log(text)
   console.log('ajay',text)
+  console.log('amit',text)
 
   return (
     <div>
