@@ -15,6 +15,9 @@ const TodoInput = () => {
     }
   };
 
+  console.log(text)
+  console.log('ajay',text)
+
   return (
     <div>
       <input type="text" value={text} onChange={e => setText(e.target.value)} />
