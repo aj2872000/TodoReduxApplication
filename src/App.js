@@ -8,6 +8,7 @@ import TodoList from "./components/TodoList";
 import TodoInput from "./components/TodoInput";
 
 function App() {
+  console.log('ajay')
   return (
     <Provider store={store}>
       <div className="App">
